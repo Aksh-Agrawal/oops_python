@@ -1,11 +1,4 @@
-class Student:
-   
-
-    def __init__(self):
-        print("default construnctor") #default construnctor
-        pass
-
-    def __init__ (self,name,rollno): #constructor (parametrized)
+nit__ (self,name,rollno): #constructor (parametrized)
         
         self.name = name
         self.rollno = rollno
@@ -17,5 +10,3 @@ class Student:
 
 s1 = Student("Aksh",5) #object
 s2 = Student("Akshat",15)
-
-
